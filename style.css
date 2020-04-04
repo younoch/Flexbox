@@ -65,7 +65,7 @@ img{
     width: 75%;
 }
 /*Mobile screen*/
-@media (max-width:600px) {
+@media (max-width:820px) {
     .columes {
         flex-direction: column;
     }
