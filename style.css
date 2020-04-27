@@ -32,7 +32,7 @@ p {
     margin: 0 auto;
 }
 img{
-    max-width: 100%;
+    width: 100%;
 }
 .columes{
     display: flex;
