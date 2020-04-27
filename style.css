@@ -43,16 +43,14 @@ img{
     color: black;
     text-align: justify
 }
-.col{   
-    padding: 3%;
-}
-
 .col-bg {
     background: #212614;
     padding: 1em;
     color: #ffff;
 }
-
+.col-1, .col-2, .col-3{
+    padding: 1.01rem;
+}
 .col-1 {
     width: 30%;
 }
@@ -65,12 +63,12 @@ img{
     width: 75%;
 }
 /*Mobile screen*/
-@media (max-width:820px) {
+@media screen and (max-width:1000px) {
     .columes {
         flex-direction: column;
     }
     .col-1, .col-2, .col-3{
         width: 95%;
-        margin: 0 a
-}
+        margin: auto;
+    }
 }
